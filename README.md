@@ -23,12 +23,19 @@
 Test Subject ID No: select participant ID number from dropdown list
 
 Demographic Info: display participant's metadata 
+
 	- ID
+	
 	- ethnicity
+	
 	- gender
+	
 	- age
+	
 	- location
+	
 	- bloodtype
+	
 	- bellybutton washing frequency per week
 
 Top 10 Bacteria Cultures Found: displays the top 10 bacteria species (OTUs) when an individual's ID is selected from dropdown menu 
