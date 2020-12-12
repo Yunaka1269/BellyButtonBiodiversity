@@ -41,8 +41,11 @@ Demographic Info: display participant's metadata
 Top 10 Bacteria Cultures Found: displays the top 10 bacteria species (OTUs) when an individual's ID is selected from dropdown menu 
 
 Bacteria Cultures Per Sample: displays the bubble chart when an individual's ID is selected from dropdown menu
+
 	- x: OTU ids
+	
 	- y: sample values
+	
 	- marker size: sample size
 
 Belly Button Washing Frequency: displays the weekly belly button washing frequency when an individual's ID is selected from dropdown menu
@@ -50,9 +53,13 @@ Belly Button Washing Frequency: displays the weekly belly button washing frequen
 ###Summary
 
 Deliverable 1: Create a Horizontal Bar Chart
+
 Deliverable 2: Create a Bubble Chart
+
 Deliverable 3: Create a Gauge Chart
+
 Deliverable 4: Customize the Dashboard
+
 	- add an image to the jumbotron
 	- add background color
 	- use a custom font with contrast for the color
