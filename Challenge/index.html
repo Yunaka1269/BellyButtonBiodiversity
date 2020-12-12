@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link 
+    rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper bg-dark">
+    <div class="container">
+      <div class="row col-md-12 ">
+        <div class="jumbotron text-center">
+          <h1 class="text-nowrap"><span class="label label-primary">Belly Button Biodiversity Dashboard</span></h1>
+          <p><span class="label label-default">Use the interactive charts below to explore the dataset</span></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h2>Belly Button :</h2>
+              </div>
+              <div class="col-md-9">
+                <p>
+                  Your belly button, also called your navel, is where your umbilical cord attached you to your mother before you were born. All mammals have belly buttons—although others are often hidden by fur.<br><br>Usually when we think of body bacteria, she says, we think of the bad microbes that cause illness. But in reality, most of the organisms on our skin are our first line of protection from pathogens—organisms that can cause disease.<br><br>In 2011, the research team from the biology department of North Carolina State University (NC State) and the Nature Research Center (NRC) at the North Carolina Museum of Natural Sciences discovered that belly buttons are very diverse habitats! In total, they discovered 2,368 different species. More than half of those may be new to science.<br><br>Each participant’s belly button hosted about 67 different species. Yet not one was common to every person, and only eight were found on at least 70 percent of participants. The researchers did learn, however, that the eight most common species were among the most abundant. This means that if a species was found in a belly button, that belly button usually had a lot of that species!<br><br>Roza's lab is partner with a food startup company called Improbable Beef and launches the project to research the bacteria species that have ability to synthesize the protain tastes like beef from human body.
+
+
+                </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-2">
+          <div class="well">
+            <h5>Test Subject ID No.:</h5>
+            <!-- <select id="selDataset"></select> -->
+            <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          </div>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Demographic Info</h3>
+            </div>
+            <div id="sample-metadata" class="panel-body"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div id="bubble"></div>
+        </div>  
+      </div>
+      <div class="row">
+      <div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div id="bar"></div>
+        </div>
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div id="gauge"></div>
+        </div>  
+      </div>
+    </div>  
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>
