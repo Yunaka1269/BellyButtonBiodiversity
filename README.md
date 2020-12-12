@@ -3,15 +3,19 @@
 ##Roza's lab is partner with a food startup company called Improbable Beef and launches the project to research the bacteria species that have ability to synthesize the protain tastes like beef from human body.
 
 ###Resources
-- image:	bellybutton.jpg 
 
-- url: 		https://www.nationalgeographic.org/article/belly-button-biodiversity/
+-image:	bellybutton.jpg 
 
-- data: 	samples.json
+-url: 		https://www.nationalgeographic.org/article/belly-button-biodiversity/
 
-- Software: 	Visual Studio Code 1.51.1
+-data: 	samples.json
+
+-Software: 	Visual Studio Code 1.51.1
+
 		bootstrap 3.3.7 (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
+		
 		D3.js (https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js)
+		
 		plotly (https://cdn.plot.ly/plotly-latest.min.js)
 
 ###Result
