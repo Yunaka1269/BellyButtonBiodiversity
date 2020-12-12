@@ -141,10 +141,10 @@ function buildCharts(sample) {
         domain: { x: [0, 1], y: [0, 1] },
         value: washing,
         title: { 
-          text: "Belly Button Washing Frequency", font: { size: 24 } 
+          text: "Belly Button Washing Frequency", font: { size: 24 }
         },
         type: "indicator",
-        mode: "gauge+number",
+        mode: "gauge+number", 
         gauge: {
           bar: { color: "black" },
           steps: [
